@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data kehadiran mahasiswa. Data terdiri dari delapan kolom
+yang menyatakan NIM mahasiswa dan status kehadiran dari minggu ke-1 hingga minggu ke-7. Nilai 1 berarti
+hadir sedangkan 0 berarti tidak hadir, dan masing-masing kolom dipisahkan oleh tab.
+
+File teks :
+130121322X  1 1 1 1 0 1 0 
+130121323Y  1 1 1 1 1 1 0 
+130121325X  1 1 1 1 1 0 1 
+130121334Y  1 1 1 1 1 0 0 
+130121337Z  1 1 1 0 1 0 0 
+130121338X  1 1 0 0 0 1 0 
+
+Contoh pembacaan file :
+130121322X  1 1 1 1 0 1 0 artinya mahasiswa dengan nim 130121322X tidak hadir di minggu ke-5 dan ke-7.
+
+Tugas :
+a. Buatlah sebuah dictionary data_kehadiran dengan key adalah NIM mahasiswa dan value adalah jumlah kehadiran
+mahasiswa. Gunakan tipe data terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi report yang digunakan untuk menampilkan NIM-NIM mahasiswa yang diperbolehkan mengikuti
+ujian dan yang tidak diperbolehkan. Jumlah kehadiran peseta ujian haruslah tidak kurang dari 75%.
+c. Buatlah fungsi top yang digunakan untuk menampilkan NIM-NIM mahasiswa yang paling malas menghadiri
+perkuliahan.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

@@ -1,0 +1,22 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data tabungan mahasiswa. Data terdiri dari enam kolom
+yang menyatakan nama mahasiswa (asumsi untik atau tidak ada yang sama), harga laptop (satuan USD), dan
+besarnya tabungan minggu ke-1 hingga minggu ke-2. Masing-masing kolom dipisahkan oleh spasi.
+
+File teks :
+Aradea 500 125 100 0 0  
+Safwan 300 50 150 0 0 
+Fatima 250 75 75 0 0
+
+Contoh pembacaan file :
+Aradea 500 125 100 0 0 artinya mahasiswa bernama Aradea ingin memiliki laptop dengan harga 500 USD.
+Tabungan yang baru terkumpul adalah 125 di minggu pertama dan 100 di minggu kedua.
+
+Tugas :
+a. Buatlah sebuah list tabungan dengan elemen dictionary. Dictionary digunakan untuk menyimpan nama, harga
+laptop, total tabungan. Gunakan tipe data terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi terbanyak yang digunakan untuk mengembalikan (return) nama mahasiswa dengan tabungan
+terbanyak.
+c. Buatlah fungsi juara digunakan untuk menampilkan nama mahasiswa dengan nominal tabungan paling mendekati
+harga laptop.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

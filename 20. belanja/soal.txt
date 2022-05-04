@@ -1,0 +1,25 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data harga barang-barang di enam toko yang
+berbeda. Data terdiri dari tujuh kolom yang menyatakan nama barang, harga di toko 1, harga di
+toko 2, hingga harga di toko 6. Masing-masing dipisahkan oleh spasi.
+
+File teks :
+Beras 15.000 14.500 15.000 16.000 12.500 15.000 
+Minyak 32.500 32.500 33.000 34.000 32.500 33.000 
+Gula 12.000 12.000 12.000 14.000 12.000 12.000 
+Terigu 7.000 7.500 7.000 8.000 6.000 8.000 
+Telur 24.000 24.000 24.500 26.000 22.000 23.000
+
+Contoh pembacaan file :
+Beras 15.000 14.500 15.000 16.000 12.500 15.000 artinya harga beras di toko 1 adalah 15.000, di
+toko 2 adalah 14.500, sedangkan toko 6 adalah 15.000.
+
+Tugas :
+a. Buatlah sebuah dictionary toko dengan key adalah nama toko, sedangkan valuenya adalah berupa
+dictionary yang digunakan untuk menyimpan barang yang dijual beserta harganya. Gunakan tipe data
+terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi termurah yang digunakan untuk mengembalikan (return) nama toko yang menjual
+barang tertentu dengan harga paling rendah.
+c. Buatlah fungsi report untuk menampilkan rata-rata harga setiap barang di keseluruhan toko.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

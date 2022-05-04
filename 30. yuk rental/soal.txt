@@ -1,0 +1,48 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data penyewaan mobil di tahun 2021.
+Setiap baris data terdiri dari tanggal, jenis mobil, dan jumlah yang disewa. Masing-masing
+kolom dipisahkan oleh tab.
+
+File teks :
+20-2-2021 camry 2 
+27-7-2021 alphard 2 
+28-12-2021 accord 4 
+1-12-2021 civic 3 
+11-6-2021 xpander 5 
+13-11-2021 vellfire 4 
+13-12-2021 xpander 1 
+11-9-2021 camry 5 
+26-9-2021 pajero 4 
+1-5-2021 raize 4 
+23-7-2021 vellfire 5 
+23-6-2021 camry 4 
+11-6-2021 civic 4 
+10-8-2021 accord 1 
+22-12-2021 camry 1 
+22-9-2021 accord 2 
+4-9-2021 pajero 2 
+14-1-2021 civic 4 
+19-12-2021 alphard 3 
+11-10-2021 alphard 1 
+28-5-2021 veloz 5 
+23-1-2021 alphard 5 
+24-11-2021 camry 4 
+3-11-2021 raize 3 
+28-8-2021 xpander 1 
+16-6-2021 camry 1 
+5-3-2021 civic 1
+
+Contoh pembacaan file :
+20-2-2021 camry 2 artinya pada tanggal 20 bulan Februari 2021 disewa dua buah mobil camry
+
+Tugas :
+a. Buatlah sebuah dictionary rental yang digunakan untuk menyimpan data penyewaan mobil,
+di mana key adalah tipe mobil sedangkan value berupa dictionary yang digunakan untuk menyimpan
+bulan dan total sewa pada bulan tersebut. Gunakan tipe data terstruktur ini untuk proses pada
+fungsi yang diminta di bawah ini.
+b. Buatlah fungsi favorit untuk mengembalikan (return) nama mobil yang paling banyak disewa
+di tahun 2021.
+c. Buatlah fungsi report yang digunakan untuk menampilkan rata-rata sewa suatu mobil tertentu
+di setiap bulannya.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

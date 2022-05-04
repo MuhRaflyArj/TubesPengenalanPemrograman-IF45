@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang terdiri dari beberapa baris kalimat yang berisi karakter alfabet,
+spasi, tanda baca, dan angka.
+
+File teks :
+Saya memakan nasi goreng seharga Rp 15.000. 
+Adik saya memakan pizza seharga Rp 300.000. 
+Kakak saya memakan roti seharga Rp 10.000, Rp 5.000, dan Rp 25.000. 
+Ibu saya memasak bubur dengan modal Rp 40.000.
+
+Contoh pembacan file :
+Kalimat mudah dipahami.
+
+Tugas :
+a. Buatlah suatu variabel dengan suatu tupe data terstruktur yang menurut anda
+paling tepat untuk menyimpan dan mengolah data dari file teks. Gunakan tipe data terstruktur
+ini untuk proses pada fungsi yang diminta di bawah.
+b. Buatlah fungsi jumlah_num untuk mengembalikan (return) nilai penjumlaha karakter numerik
+yang ada pada string.
+c. Buatlah fungsi frekuensi_tinggi untuk mengembalikan (return) nilai kata yang paling banyak
+muncul.
+d. Buatlah fungsi kata_berlawanan yang digunakan untuk menampilkan kata-kata yang dimulai dari
+huruf tertentu.
+e. Buatlah main program yanag digunakan untuk menampilkan list dan memanggil fungsi yang dibuat.

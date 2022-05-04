@@ -1,0 +1,5 @@
+Daihatsu_Xenia 5 6 5 5 6 
+Toyota_Avanza 6 7 7 8 8 
+Toyota_Veloz 7 7 8 7 7 
+Mitsubishi_Xpander 8 8 8 7 8 
+Mitsubishi_Xpander_Cross 8 8 8 8 8 

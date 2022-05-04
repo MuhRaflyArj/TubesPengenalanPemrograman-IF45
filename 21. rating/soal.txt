@@ -1,0 +1,26 @@
+Deksripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data rating penilaian bebeapa produk mobil.
+Data rating terdiri 6 kolom yang menyatakan tipe mobil, rating spesifikasi 1, rating spesifikasi 2,
+hingga rating spesifikasi 5. Setiap rating memiliki range nilai antara 1 hingga 10, dan masing-masing
+kolom dipisahkan oleh tab.
+
+File teks :
+Daihatsu_Xenia 5 6 5 5 6 
+Toyota_Avanza 6 7 7 8 8 
+Toyota_Veloz 7 7 8 7 7 
+Mitsubishi_Xpander 8 8 8 7 8 
+Mitsubishi_Xpander_Cross 8 8 8 8 8
+
+Contoh pembacaan file :
+Daihatsu_Xenia 5 6 5 5 6 artinya Daihatsu Xenia memperoleh rating 5 untuk spesifikasi 1, 3, dan 4.
+Sedangkan rating 6 untuk spesifikasi 2 dan 5.
+
+Tugas :
+a. Buatlah sebuah list rating dengan elemen berupa dictionary, di mana dictionary digunakan untuk
+menyimpan data mobil beserta rating setiap spesifikasi. Gunakan tipe data terstruktur ini untuk
+proses fungsi diminta di bawah ini.
+b. Buatlah fungsi terbaik yang digunakan untuk mengembalikan (return) nama mobil dengan rating
+tertinggi pada spesifikasi tertentu.
+c. Buatlah fungsi report untuk menampilkan kendaraan yang memiliki rata-rata rating diatas 7.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

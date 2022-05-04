@@ -1,0 +1,22 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yag berisi beberapa baris data tabungan mahasiswa. Data terdiri dar enam
+kolom ang menyatakan nama mahasiswa (asumsi unik atau tidak ada yang sama), harga laptop (satuan USD),
+dan besarnya tabungan minggu ke-1 hingga minggu ke-2. Masing-masing kolom dipisahkan oleh spasi.
+
+File teks :
+Aradea 500 125 100 0 0  
+Safwan 300 50 150 0 0 
+Fatima 250 75 55 110 0
+
+Contoh pembacaan file :
+Aradea 500 125 100 0 0 artinya mahasiswa bernama Aradea ingin memiliki laptop dengan harga 500 USD. 
+Tabungan yang baru terkumpul adalah 125 di minggu pertama dan 100 di minggu kedua.
+
+Tugas :
+a. Buatlah sebuah list tabungan dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan
+nama, harga laptop, tabungan dari minggu 1, minggu 2, hingga minggu 4. Gunakan tipe data terstruktur
+ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi rerata yang digunakan untuk mengembalikan (return) rata-rata tabungan tertentu.
+c. Buatlah fungsi tampil_terbanyak yang digunakan untuk menampilkan tabungan setiap mahasiswa yang
+paling banyak dari semua minggu.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi tersebut.

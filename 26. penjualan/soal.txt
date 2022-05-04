@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberukan sebuah file teks yang berisi beberapa baris data penjualan. Data terdiri dari enam
+kolom yang menyatakan nama penjual dan banyaknya penjualan dari hari Senin, Selasa, Rabu, Kamis
+dan Jumat. Masing-masing kolom dipisahkan oleh tab.
+
+File teks :
+Aradea 500 700 750 1000  1000 
+Safwan 300 50 0 0 2000 
+Fatima 2500  7500  1500  3000  10000
+
+Contoh pembacaan file :
+Aradea 500 700 750 1000 1000 artinya Aradea memiliki penjualan sebesar 500 di hari Senin, 700 di
+hari Selasa, 750 di hari Rabu, 1000 di hari Kamis dan Jumat.
+
+Tugas :
+a. Buatlah sebuah list penjualan dengan elemen berupa dictionary. Dictionary digunakan untuk
+menyimpan nama penjual dan banyaknya penjualan setiap harinya. Gunakan tipe data terstruktur 
+ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi tertinggi untuk mengembalikan (return) nama penjual dengan penjualan tertinggi
+selama seminggu.
+c. Buatlah fungsi report yang digunakan untuk menampilkan rata-rata penjualan setiap hari selama
+satu minggu untuk semua penjual.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

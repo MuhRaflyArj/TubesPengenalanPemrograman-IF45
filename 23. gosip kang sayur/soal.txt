@@ -1,0 +1,43 @@
+Deskripsi file teks :
+Jaman sekarang jarang sekali antar tentangga dalam suatu komplek perumahan menjalin silaturahmi
+dengan bik satu dengan yang lain. Tetapi biasanya mereka cukup mengenal tetangga mereka, kebiasaan,
+anak-anak mereka, melalui pembicaraan ringan dengan pedagang keliling yang memasuki komplek,
+seperti pedagang sayur dan pedagang jajanan.
+
+Komplek perumahan yang anda tinggali berbentuk satu jalan lurus saja, dimana nomor rumah ganjil
+disatu sisi dan genap disisi yang lain. Nomor rumah kecil berada di ujung kiri jalan dan nomor
+rumah besar di ujung kanan.
+
+Diberikan sebuah file teks yang berisi data penghuni komplek suatu perumahan. Baris pertama pada
+teks terdiri dari dua nilai,, yaitu nomor rumah anda dan jumlah rumah yang ada di dalam komplek.
+Baris-baris berikutnya berisi gosip yang diperoleh dari pedagang keliling rumah dalam bentuk :
+    <num> rumah <sebrang|sebelah> <kiri|kanan> rumah <nama> dihuni oleh keluarga <nama>
+Di mana
+    Seberang berarti nomor diseberang rumah dari nama yang dimaksud, dan sebelah berada di sisi
+    yang sama. Kiri berarti pada num rumah dengan nomor lebih kecil, dan sebaliknya, kanan berarti
+    ke-arah nomor lebih besar. Jika nama diisi anda, bararti itu adalah rumah anda.
+
+Catatan : patokan arah kuru dan kanan adalah rumah anda.
+
+File teks :
+13 27
+2 rumah seberang kiri rumah anda dihuni oleh keluarga Joni
+1 rumah seberang kiri rumah Joni dihuni oleh keluarga Kylie
+3 rumah sebelah kanan rumah Kylie dihuni oleh keluarga Herry
+
+Contoh pembacaan file :
+berdasarkan contoh file teks diatas maka berarti nomor rumah anda adalah 13 dan komplek terdiri
+dari 27 rumah. Apabila informasi yang diperoleh di-illustrasi pada gambar, maka nomor rumah Joni
+adalah 10, Kylie adalah 7, dan nama keluarga anda adalah Herry. Sisa rumah lainnya tidak diketahui
+nama keluarga yang tinggal.
+
+Tugas :
+a. Buatlah dua buah dictionary yang masing-masing digunakan untuk menyimpan isi rumah ganjil dan
+genap, di mana key adalah nomor rumah dan value adalah nama keluarga yang menghuni. Gunakan tipe
+data terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi nomor_rumah untuk mengembalikan (return) nomor rumah keluarga tertentu, atau
+"tidak tahu" apabila nama keluarga tidak ditemukan.
+c. Buatlah fungsi penghuni_rumah untuk mengembalikan (return) nama keluarga yang tinggal pada
+nomor tertentu, atau "tidak tahu" apabila nomor rumah tidak ditemukan.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

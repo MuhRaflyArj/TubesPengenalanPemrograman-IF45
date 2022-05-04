@@ -1,0 +1,27 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data kamus, setiap baris terdri dari empat kolom
+yang berisi data kata empat bahasa. Kolom pertama adalah kata dalam bahasa Indonesia, dan kolom-kolom
+selanjutnya adalah kata dalam bahasa Inggris, Sunda, dan Jawa.
+
+File teks :
+satu one hiji siji 
+dua two dua loro 
+tiga three tilu telu 
+empat four opat papat 
+lima five lima limo
+enam six genep enem 
+tujuh seven tujuh pitu 
+delapan eight dalapan wolu 
+sembilan nine salapan songo 
+sepuluh ten sapuluh sepuluh
+
+Contoh pembacaan file :
+satu one hiji siji artinya "satu" dalam bahasa Indonesia, "one" dalam bahasa Inggris, "hiji" dalam
+bahasa Sunda, dan "siji" dalam bahasa Jawa.
+
+Tugas :
+a. Buatlah sebuah dictionary bernama kamus berdasarkan pembacaan file teks tersebut. Gunakan tipe data
+terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi, id_to_en, id_to_su, id_to_ja, dan su_to_ja untuk mengembalikan kata hasil terjemahan
+dari Indonesia ke Inggris, Indonesia ke Sunda, Indonesia ke Jawa, dan Sunda ke Jawa.
+c. Buatlah main program yang digunakan untuk menampilkan dict dan memanggil fungsi yang dibuat.

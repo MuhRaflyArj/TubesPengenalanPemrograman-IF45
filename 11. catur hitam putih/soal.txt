@@ -1,0 +1,32 @@
+Deskripsi file teks :
+Diberikan sebuah file eks yang berisi beberapa baris data hasil pertandingan catur. Data terdiri dari
+tiga kolom yang menyatakan nama pemain putih, pemain hitam, dan hasil pertandingan (1-0, 0-1, dan 1/2-1/2).
+Masing-masing kolom dipisahkan oleh spasi.
+
+File teks :
+fischer morphy 1-0 
+carlsen alekhine 0-1 
+kasparov capablanca 1/2-1/2 
+morphy capablanca 1/2-1/2 
+alekhine kasparov 0-1 
+fischer carlsen 1/2-1/2 
+carlsen morphy 1/2-1/2 
+kasparov fischer 0-1 
+capablanca alekhine 1-0 
+morphy alekhine 1/2-1/2 
+fischer capablanca 1-0 
+carlsen kasparov 1/2-1/2 
+kasparov morphy 1-0 
+capablanca carlsen 1-0 
+alekhine fischer 1/2-1/2
+
+Contoh pembacaan file :
+A B 1/2-1/2 artinya pertandingan berakhir seri, pemain A dan B mendapat point 1/2.
+
+Tugas :
+a. Buatlah sebuah list pertandingan yang setiap elemennya adalah suatu dictionary. Key dan value pada
+dictionary adalah nama pemain putih, pemain hitam, poin pemain putih, dan pemain hitam. Gunakan tipe
+data terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi report yang digunakan untuk menampilkan data pertandingan yang berakhir seri.
+c. Buatlah fungsi poin yang digunakan untuk mengambalikan (return) total poin dari seorang pemain tertentu.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

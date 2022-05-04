@@ -1,0 +1,23 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data mobil. Data terdiri dari empat kolom yang
+menyatakan tipe mobil, warna, jenis, bahan bakar, dan stoknya. Masing-masing kolom dipisahkan oleh
+hashtag "#".
+
+File teks :
+avanze_S#merah#bensin#10 
+avanze_Q#merah#bensin#5 
+kijang_V#biru#solar#3 
+kijang_S#hitam#solar#5 
+kijang_Q#merah#solar#4
+
+Contoh pembacaan file :
+avanza_s#merah#bensin#10 artinya mobil dengan tipe avanza_s berwarna merah berbahan bakar bensin dan
+stok berjumlah 10 mobil.
+
+Tugas :
+a. Buatlah sebuah dictionary daftar_mobil dengan key adalah tipe mobil, sedangkan valuenya berupa list yang
+elemennya berupa warna, jenis, dan stok dari mobil. Gunakan tipe data terstruktur untuk proses pada fungsi
+yang diminta di bawah ini.
+b. Buatlah fungsi report yang digunakan untuk menampilkan tipe mobil dengan stok terbanyak dan tersedikit.
+c. Buatlah fungsi bahan_bakar yang digunakan untuk mengembalikan (return) bahan bakar suatu mobil tertentu.
+d. Buatlah main program yag digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuka.

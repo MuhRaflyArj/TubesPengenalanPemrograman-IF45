@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yag berisi beberapa baris data pengguna Online Shop. Data terdiri dari empat
+kolom yang menyatakan user_id, pelanggan, nama pelanggan, tanggal_daftar, dan tanggal_lahir. Masing-masing
+kolom dipisahkan oleh dollar "$".
+
+File teks :
+aba123$Bara api$1 Maret 2019$3 Agustus 1990 
+dila534$Didi lala$31 Maret 2019$5 Januari 1998 
+jojo21$Jojo dino$17 Maret 2019$30 Maret 2000 
+mat55$Mate mat$1 April 2019$5 Desember 1997 
+fersa$Fera sasa$3 April 2019$4 Maret 2001
+
+Contoh pembacaan file :
+aba123$Bara api$1 Maret 2019$3 Agustus 1990 artinya Bara api dengan user_id abal123 lahir pada tanggal 3
+Agustus 19990 dan bergabung di Online Shop pada tanggal 1 Maret 2019
+
+Tugas :
+a. Buatlah sebuah list daftar_user dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan
+data user_id, nama, tanggal_daftar, dan tanggal_lahir. Gunakan tipe data terstruktur ini untuk proses pada
+fungsi yang diminta di bawah ini.
+b. Buatlah fungsi report yang digunakan untuk menampilkan nama pelanggan yang mendaftar pada bulan tertentu.
+c. Buatlah fungsi termuda yang digunakan untuk mengembalikan (return) nama pelanggan dengan usia termuda.
+Cukup gunakan tahun dalam perhitungan usia.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

@@ -1,0 +1,23 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data hasil panen di beberapa petak sawah yang
+dimiliki oleh Pak Selwyn. data terdiri dari empat kolom yang menyatakan lokasi petak sawah, umur padi
+saat panen (dalam hari), jumlah ton gabah hasil panen, dan harga jual gabah per kg. Masing-masing kolom
+dipisahkan oleh spasi.
+
+File teks :
+Cianjur 120 2.5 4900
+Garut 130 3.7 4750
+Cianjur 150 2.7 4500
+
+Contoh pembacaan file :
+Cianjur 120 2.5 4900 artinya gabah seberat 2.5 ton yang dipanen pada hari ke 120, berlokasi di Cianjur
+dijual dengan harga Rp 4900 per kg.
+
+Tugas :
+a. Buatlah list petak_sawah dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan hasil
+panen setiap petak sawah, mulai dari lokasi, total gabah, dan total penjualannya. Gunakan tipe data
+terstruktur ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi report untuk menampilkan total gabah dan total penjualan selama setahun.
+c. Buatlah fungsi rerata yang digunakan untuk mencari (return) rata-rata panen pada petak sawah tertentu.
+d. Buatlah fungsi produktif untuk mencari petak sawah mana yang produktif panen.
+e. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi tersebut.

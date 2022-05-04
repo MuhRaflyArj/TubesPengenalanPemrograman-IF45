@@ -1,0 +1,39 @@
+Deskripsi file teks :
+Diberikan sebuah teks yang berisi beberapa baris hasil pertandingan bola pada Premier League. Data
+terdiri dari empat kolom yang menyatakan nama tim 1, perolehan gol tim 1, perolehan gol tim 2, dan nama
+tim 2. Masing-masing kolom dipisahkan oleh spasi.
+
+File teks : 
+brentford 2 0 arsenal 
+man_utd 5 1 leeds 
+burnley 1 2 brighton 
+chelsea 3 0 crystal_palace 
+everton 3 1 southampton 
+leicester 1 0 wolves 
+watford 3 2 aston_villa 
+norwich 0 3 liverpool 
+new_castle 2 4 west_ham 
+spurs 1 0 man_city 
+liverpool 2 0 burnley 
+aston_villa 2 0 newcastle 
+crystal_palace 0 0 brentford 
+leeds 2 2 everton 
+man_city 5 0 norwich 
+brighton 2 0 watford 
+southampton 1 1 man_utd 
+wolves 0 1 spurs 
+arsenal 0 2 chelsea 
+west_ham 4 1 leicester
+
+Contoh pembacaan file :
+brentford 2 0 arsenal artinya brentford menang 2-0 atas arsenal. Brentford medapat 3 poin. Arsenal tidak
+mendapat poin. Brentford main 1x, arsenal main 1x. Brentford memasukkan 2 dan kemasukan 0, sedangkan
+arsenal memasukkan 0 dan kemasukan 2. Selisih gol brentford +2, selisih gol arsenal -2.
+
+Tugas :
+a. Buatlah sebuah dictionary klasemen dengan key adalah nama klub dan value berupa list of bilangan (atau
+dictionary). Elemen dari list (atau dictionary) digunakan untuk menyimpan data klub berupa total main,
+menang, total draw, total kalah, total gol memasukkan, total gol kemasukkan, total selisih gol, dan total
+point.
+b. Buatlah main program yang digunakan untuk menampilkan isi dictionary dan memanggil fungsi yang dibuat.
+Value dari dictionary klasemen tersebut harus ditampilkan secara rapi untuk setiap club.

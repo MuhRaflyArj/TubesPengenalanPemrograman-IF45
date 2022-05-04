@@ -1,0 +1,25 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data penduduk. Data terdiri dari empat kolom yang
+menyatakan NIK, nama (harus dua kata), tempat dan tanggal lahir, masing-masing kolom dipisahkan oleh
+hashtah "#".
+
+File teks :
+313774#Dona doni#Bandung#3 Agustus 1990 
+312155#Dara dira#Malaysia#5 Januari 1998 
+313454#Sani sina#Jakarta#31 Desember 2000 
+311585#Tita tati#Bandung#5 Desember 1997 
+313777#Ali ula#Surabaya#4 Desember 2001
+
+Contoh pembacaan file :
+31377#Dona doni#Bandung#3 Agustus 1990 artinya Dona doni dengan NIK 313774 lahir di Bandung pada tanggal
+3 Agustus 1990
+
+Tugas :
+a. Buatlah sebuah list daftar_penduduk dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan
+data NIK, nama, tempat, dan tanggal lahir. Gunakan tipe data terstruktur ini untuk proses pada fungsi yang
+diminta di bawah ini
+b. Buatlah fungsi print_penduduk yang digunakan untuk menampilkan nama da nusia penduduk yang lahir pada 
+bulan tertentu. Usia cukup dihitung berdasarkan tahun saja.
+c. Buatlah fungsi hitung_lahir yang digunakan untuk mengembalikan (return) jumlah penduduk yang lahir di
+suatu tempat tertentu
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

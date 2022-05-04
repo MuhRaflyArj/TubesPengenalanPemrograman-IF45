@@ -1,0 +1,32 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris hasil pertandingan catur. Data terdiri dari tiga
+kolom yang menyatakan nama pemain putih, pemain hitam, dan hasil pertandingan. Masing-masing kolom
+dipisahkan oleh spasi.
+
+File teks :
+fischer morphy 1-0 
+carlsen alekhine 0-1 
+kasparov capablanca 1/2-1/2 
+morphy capablanca 1/2-1/2 
+alekhine kasparov 0-1 
+fischer carlsen 1/2-1/2 
+carlsen morphy 1/2-1/2 
+kasparov fischer 0-1 
+capablanca alekhine 1-0 
+morphy alekhine 1/2-1/2 
+fischer capablanca 1-0 
+carlsen kasparov 1/2-1/2 
+kasparov morphy 1-0 
+capablanca carlsen 1-0 
+alekhine fischer 1/2-1/2
+
+Contoh pembacaan file :
+A B 1/2-1/2 artinya pertandingan berakhir seri, pemain A dan B mendapat 1/2 poin
+
+Tugas :
+a. Buatlah sebuah dictionary daftar_poin berdasarkan file teks yang dibaca. Di mana key berisi nama
+pemain dan value berupa total poin yang diperoleh. Gunakan tipe data terstruktur ini untuk proses pada
+fungsi yang diminta di bawah ini.
+b. Buatlah fungsi pemain yang digunakan untuk mengembalikan (return) banyaknya pemain yang bertanding.
+c. Buatlah fungsi juara yang digunakan untuk menampilkan pemain dengan poin yang tertinggi.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

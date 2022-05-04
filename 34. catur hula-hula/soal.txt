@@ -1,0 +1,32 @@
+Deskripsi file teks :
+DIberikan beberapa contoh file teks berisi data posisi permainan catur (papan ukuran 8x8). Buah catur
+hitam menggunakan huruf kecil, buah catur putih menggunakan huruf kapital. Angka menyatakan petak
+kosong, dan '/' adalah batas setiap baris pada papan catur.
+
+Setiap buah-buah catur itu memiliki rincian sebagai berikut :
+k/K = King bernilai 200
+q/Q = Queen bernilai 9
+r/R = Rook bernilai 5
+b/B = Bishop bernilai 3
+n/N = Knight bernilai 3
+p/P = Pawn bernilai 1
+
+File teks 1 :
+rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
+
+File teks 2 :
+4k3/8/8/8/8/8/4P3/2K5
+
+Contoh pembacaan file :
+4k3/8/8/8/8/8/4P3/2K5 artinya para baris pertama king hitam berada di petak ke 5 (4 petak kosong di 
+sebelah kiri dan 3 petak kosong di sebelah kanan). Baris kedua hingga keenam, 8 petak kosong semua.
+Baris ketujuh, hanya ada pawn putih di petak kelima, sedangkan di baris kedelapan, king putih ada di
+petak ketiga.
+
+Tugas :
+a. Buatlah sebuah list bernama posisi berdasarkan pembacaan file teks itu.
+b. Buatlah fungsi nilai_buah untuk mengembalikan nilai buah catur salah satu pemain. Fungsi memiliki dua
+parameter, yaitu posisi dengan tipe list dan pemain dengan tipe sstring.
+c. Buatlah fungsi jumlah_petak_kosong yang digunakan untuk menghitung jumlah petak kosong pada papan catur.
+Fungsi memiliki satu parameter, yaitu posisi dengan tipe list.
+d. Buatlah main program yang digunakan untuk menampilkna list dan memanggil fungsi yang dibuat.

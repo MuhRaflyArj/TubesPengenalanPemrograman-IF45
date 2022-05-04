@@ -1,0 +1,25 @@
+Deksripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data nilai mahasiswa. Data terdiri dari lima kolom yang
+menyatakan NIM mahasiswa, dan Nilai CLO 1, CLO 2, CLO 3, dan CLO 4. Range nilai adalah dari 0 hingga 100
+dan masing-masing kolom dipisahkan oleh tab.
+
+File teks :
+130121322X  90 50 40 60 
+130121323Y  80 70 60 60 
+130121325X  100 90 75 50 
+130121334Y  90 90 80 85 
+130121337Z  95 60 70 80 
+130121338X  50 50 40 6
+
+Contoh pembacaan file :
+130121322X 90 50 40 60 artinya mahasiswa dengan NIM 130121322X memperoleh nilai CLO 1 sampai dengan CLO 4
+sebesar 90, 50, 40, 60
+
+Tugas :
+a. Buatlah sebuah dictionary daftar_clo dengan key adalah nama CLO dan value berupa list yang berisi
+empat elemen. Elemen pertama adalah rerata CLO semua mahasiswaw, elemen kedua dalah nilai CLO tertinggi,
+elemen ketiga adalah nilai CLO terendah, dan elemen keempat adalah jumlah mahasiswa di bawah standar
+keleulusan (kurang atau sama dengan 50) CLO tertentu. Gunakan tipe data terstruktur ini untuk proses pada
+fungsi yang diminta di bawah ini.
+b. Buatlah fungsi report untuk menampilkan data setiap CLO sesuai dengan dictionary yang telah di buat.
+c. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat

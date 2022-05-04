@@ -1,0 +1,42 @@
+Deskripsi soal :
+Buatlah dua file teks berdasarkan data masukan yang diberikan user kepada program
+
+Masukkan terdiri dari beberapa baris yang diakhiri oleh string "STOP". Setiap barisnya berisi
+tiga nilai yang menyatakan bulan, tahun, dan besarnya nilai uang. Apabila positif maka artinya 
+pemasukan atau tabungan bertambah, sedangkan apabila negatif maka sebaliknya yaitu pengeluaran
+dan tabungan berkurang.
+
+Keluaran berupa dua buah file teks. File teks digunakan untuk menyimpan data tabungan yang terdiri
+dari 2 file dengan kolom berupa bulan, tahun, dan besarnya uang yang masuk/keluar (dalam IDR).
+File pertama berisi data pemasukan, sedangkan file yang kedua berisi pengeluaran. Setiap akhir
+dari file teks berisi rata-rata dan juga nilai tertinggi.
+
+Contoh masukan :
+Agustus 2020 +20000 
+Maret 2021 +9000 
+Desember 2021 +9000 
+November 2021 +6000 
+Agustus 2021 -25000 
+Oktober 2020 +12000 
+Desember 2020 +24000 
+Juni 2020 +5000 
+Februari 2021 +20000 
+Mei 2020 +24000 
+Desember 2021 -19000 
+Agustus 2020 -18000 
+September 2020 +17000 
+STOP
+
+Contoh pembacaan masukan :
+Agustus 2021 -25000 artinya pada bulan Agustus tahun 2021 terjadi pengeluaran sebesasr IDR 25.000
+
+Tugas :
+a. Buatlah dua buah dictionary yaitu pemasukan dan pengeluaran. Masing-masing menggunakan key
+berupa bulan dan value berupa akumulasi uang pada bulan tersebut. Gunakan tipe data terstruktur
+ini.
+b. Buatlah fungsi rerata untuk mengembalikan (return) nilai rata-rata besarnya pemasukan atau
+pengeluaran setiap bulannya.
+c. Buatlah fungsi tertinggi untuk mengembalikan (return) nilai bulan dan tahun dengan pemasukan
+tertinggi.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.

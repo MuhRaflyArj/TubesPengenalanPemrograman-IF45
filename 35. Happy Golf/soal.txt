@@ -1,0 +1,35 @@
+Deskripsi file teks :
+Diberikan sebuah file teks berisi data sejumlah pemain golf dalam suatu pertandingan. Setiap baris
+menyatakan nama peserta dan 18 nilai pukulan seorang peserta (18 holes) dalam suatu pertandingan.
+Masing-masing dipisahkan oleh spasi.
+
+Dalam permainan golf digunakan istilah Par sebagai standar nilai normal suatu pukulan. Nilai pukulan
+di setiap hole diberikan terhadap selisij pikulan dengan Par tersebut. Besarnya nilai pukulan terhadap
+Par sebagai berikut. (Khusus untuk ACE langsung mendapat nilai 1)
+
+QD      TP      DB      BG      PAR     BR      EG      AL      CN
++4      +3      +2      +1       0      -1      -2      -3      -4
+
+Pada pertandingan ini digunakan nilai par sama dengan 5. Skor akhir dihitung berdasarkan jumlah nilai
+pukulan di semua holes, dan pemenang ditentukan berdasarkan pemain yang memperoleh nilai skor terkecil.
+
+File teks :
+PRAS PAR BR BR EG TR BG PAR CN ACE QD TR TR DB PAR TR BR EG AL 
+SAID BR BR BG BG BG PAR DB TR TR QD TR DB PAR BR EG AL CN ACE 
+VANIE ACE PAR PAR BR BG PAR BR BR BG BG BG BR PAR PAR PAR BR BR BG 
+FARAH DB AL TP BR EG AL BG CN AL AL BG CN EG AL AL BR ACE QD 
+BUNYAMIN DB DB QD BR BR BG DB EG BR BG TP QD DB CN AL TP BR PAR 
+SELLY CN EG TP QD EG DB EG DB PAR QD ACE PAR BR QD CN BG PAR ACE
+
+Contoh pembacaan file :
+PAR BR BR EG TR BG artinya hole pertama PAR nilai pukulan adalah 5, hole kedua BR nilai pukulan adalah
+PAR-1, yaitu 4. Pada hole ketiga BR kembali maka nilai pukulan adalah PAR-1, yaitu 4. Dan seterusnya
+hingga hole ke-18. Skor pemain ditentukan berdasarkan jumlah nilai setiap hole.
+
+Tugas :
+a. Buatlah sebuah list pemain_gold dengan elemen berupa dictionary. Setiap dictionary digunakan untuk
+menyimpan nama peserta dan skor peserta di semua holes. Gunakan tipe data terstruktur ini untuk proses
+pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi pemenang untuk mengembalikan (return) peserta ke berapa yang menjadi pemenang.
+c. Buatlah fungsi rerata yang digunakan untuk mengembalikan (return) rata-rata skor semua pemain.
+d. Buatlah main program yang digunakan untuk menampilkan list dan memanggil fungsi yang dibuat.

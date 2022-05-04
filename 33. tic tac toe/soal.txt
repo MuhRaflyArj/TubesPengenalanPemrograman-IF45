@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberikan beberapa contoh file teks yang berisi posisi permainan Tic Tac Toe. Posisi permainan terdiri
+atas 3 baris dan 3 kolom dengan 'O' menyatakan pemain pertama telah menempatkan buahnya di sana, 'X'
+menyatakan pemain kedua telah menempatkan buahnya di sana, dan '_' menyatakan posisi belum ditempati.
+
+File teks 1 :       File teks 2 :       File teks 3 :       File teks 4 :       File teks 5 :
+_ O X               O O O               X O O               _ O O               _ X O
+_ O X               X O _               _ O X               _ O X               _ O O
+_ _ X               X _ X               O X X               _ X X               _ X X
+
+Contoh pembacaan file :
+_ O X artinya pada baris tertentu, kolom pertama kosong, sedangkan kolom kedua dan ketiga telah
+diisi oleh buah pemain pertama dan kedua.
+
+Tugas :
+a. Buatlah sebuah list bernama posisi berdasarkan pembacaan file teks itu. Gunakan tipe data terstruktur
+ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi siapa_menang untuk mengembalikan pemain mana yang menang ('O' atau 'X') atau 'none'
+jika tidak ada pemenang, Fungsi memiliki satu parameter, yaitu posisi dengan tipe list.
+c. Buatlah fungsi siapa_hampir_menang yang digunakan untuk mencari pemain yang hampir menang ('O' atau 'X')
+atau 'none' jika tidak ada yag hampir menang. Hampir menang terjadi jika sudah menempatkan 2 buath di baris
+yang sama, kolom yang sama, atau diagonal yang sama dengan petak ketiganya hampir kosong. Fungsi memiliki
+satu parameter, yaitu posisi dengan tipe list
+d. Buatlah main program yang digunakan untuk menampilkan list dan memanggil fungsi yang dibuat.

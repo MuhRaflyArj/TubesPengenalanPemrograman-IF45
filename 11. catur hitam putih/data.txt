@@ -1,0 +1,15 @@
+fischer morphy 1-0 
+carlsen alekhine 0-1 
+kasparov capablanca 1/2-1/2 
+morphy capablanca 1/2-1/2 
+alekhine kasparov 0-1 
+fischer carlsen 1/2-1/2 
+carlsen morphy 1/2-1/2 
+kasparov fischer 0-1 
+capablanca alekhine 1-0 
+morphy alekhine 1/2-1/2 
+fischer capablanca 1-0 
+carlsen kasparov 1/2-1/2 
+kasparov morphy 1-0 
+capablanca carlsen 1-0 
+alekhine fischer 1/2-1/2 

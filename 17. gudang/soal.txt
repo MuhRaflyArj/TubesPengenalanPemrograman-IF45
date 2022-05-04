@@ -1,0 +1,26 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data pergerakan barang pada gudang PT. MAGIC. Data
+terdiri dari 9 kolom yang menyatakan nama barang, jumlah barang yang diproduksi pada minggu 1, jumlah
+barang yang terjual pada minggu 1, dan seterusnya hingga minggu ke-4. Masing-masing dipisahkan oleh tab.
+
+File teks :
+Pencil 1000  900 3000  3000  2000  2800  6000  5000 
+Pena Biru 4000  2000  2000  1000  2000  1000  1000  500 
+Pena Hitam  5000  5000  5000  5000  5000  5000  5000  5000 
+Penggaris 100 50 50 50 100 100 50 125 
+Penghapus 200 200 400 300 300 400 700 600
+
+Contoh pembacaan file :
+Pencil 1000 900 3000 3000 2000 3800 6000 5000 artinya pada minggu ke-1, jumlah pensil yang diproduksi
+berjumlah 1000 buah, sedangkan yang terjual sebanyak 900 buah. Sedangkan pada minggu ke-3, jumlah pensil
+yang diproduksi berjumlah 2000 buah dan terjual sebanyak 2800 buah.
+
+Tugas :
+a. Buatlah sebuah list data_barang dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan
+nama barang, produksi, dan penjualan setiap minggunya. Gunakan tipe data terstruktur ini untuk proses
+pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi peningkatan yang menampilkan daftar barang yang mengalami peningkatan produksi disetiap
+minggunya.
+c. Buatlah fungsi report yang digunakan untuk mengembalikan (return) rata-rata jumlah barang tertentu
+yang dijual
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

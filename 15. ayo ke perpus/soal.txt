@@ -1,0 +1,24 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi beberapa baris data buku dan peminjamannya. Data terdiri dari
+delapan kolom yang menyatakan ISBN, stok buku, jumlah buku yang dipinjam di hari Senin, Selasa, Rabu,
+Kamis, Jumat, dan Sabtu. Masing-masing kolom dipisahkan oleh tab.
+
+File teks :
+978-1523502776 10 4 0 0 3 2 0 
+978-1951204006 3 2 0 0 1 0 0 
+978-1119724414 5 3 0 1 0 0 0 
+978-0997316025 6 0 0 0 1 1 1 
+978-1734554908 12 2 0 4 0 0 1 
+
+Contoh pembacaan file :
+978-1523502776 10 4 0 0 3 2 0 artinya buku dengan ISBN 987-1523502776 memiliki jumlah stok sebanyak 10
+buku, dan dipinjam pada hari Senin sejunlah 4 buku, Kamis sejumlah 3 buku, dan Jumat sejumlah 2 buku.
+
+Tugas :
+a. Buatlah dictionary peminjaman dengan key adalah nama hari dan value berupa total buku yang dipinjam
+pada hari tersebut. Gunakan tipe data terstruktur ini untuk prises pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi favorit yang digunakan untuk mengembalikan (return) nama hari dengan peminjaman buku
+terbanyak
+c. Buatlah fungsi report yang digunakan untuk enampilkan rata-rata peminjaman buku di setiap harinya
+selama satu minggu.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

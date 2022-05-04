@@ -1,0 +1,42 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi klasemen 18 klub dalam liga 1 Indonesia. Data klasemen terdiri
+dari nama tim, jumlah pertandingan menang, jumlah pertandingan kalah, jumlah pertandingan seri, jumlah
+gol yang dicetak, dan jumlah gol kebobolan. Masing-masing kolom dipisahkan oleh spasi.
+
+Poin akhir klasemen dihirung menggunakan rumus berikut :
+    total poin = 3 poin x jumlah menang + 1 poin x jumlah seri - 0 poin x jumlah kalah.
+
+Apabila ada tim dengan poin yang sama maka peringkat dilihat dari selisih gol terbanyak (gol tercetak -
+gol kebobolan).
+
+File teks :
+BhayangkaraFC 11 10 13 22 10 
+Persib 14 8 12 24 9 
+Arema 9 14 11 38 17 
+Bali 10 8 16 30 10 
+PSIS 8 7 19 35 16 
+Persebaya 15 10 9 29 30 
+BorneoFC 14 11 9 33 29 
+Persija 17 12 5 24 26 
+Persita 20 9 5 35 17 
+PSS 15 14 5 44 27 
+PSM 6 18 10 36 21 
+MaduraUnited 16 17 1 35 21 
+Persikabo 19 15 0 21 19 
+Persik 22 9 3 23 28 
+Persela 19 12 3 22 15 
+BaritoPutera 12 15 7 20 7 
+Persipura 18 11 5 33 10 
+Persiraja 21 7 6 30 15
+
+Contoh pembacaan file :
+Persib 14 8 12 24 9 artinya klub Persib memenangkan 14 pertandingan, kalah sebanyak 8 kali, dan seri 12
+kali. Adapun jumlah gol yang dicetak sebanyak 24 gol dan kebobolan gawang sebanyak 9 gol.
+
+Tugas :
+a. Buatlah sebuah list klasemen dengan elemen berupa dictionary. Dictionary digunakan untuk menyimpan
+data klub berupa nama, total poin, dan selisih gol dari suatu tim. Gunakan tipe data terstruktur ini
+untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi juara_liga yang digunakan untuk mengembalikan (return) nama klub dengan poin tertinggi.
+c. Buatlah fungsi cari yang digunakan untuk menampilkan data klub dengan nilai poin kurang dari x.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang dibuat.

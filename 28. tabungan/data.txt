@@ -1,0 +1,14 @@
+Agustus 2020 +20000 
+Maret 2021 +9000 
+Desember 2021 +9000 
+November 2021 +6000 
+Agustus 2021 -25000 
+Oktober 2020 +12000 
+Desember 2020 +24000 
+Juni 2020 +5000 
+Februari 2021 +20000 
+Mei 2020 +24000 
+Desember 2021 -19000 
+Agustus 2020 -18000 
+September 2020 +17000 
+STOP

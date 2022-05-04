@@ -1,0 +1,29 @@
+Deskripsi file teks :
+Diberikan sebuah file teks yang berisi data penjualan. Data terdiri dari enam kolom yang menyatakan
+nama pramuniaga dan banyaknya penjualan (satuan ribuan) dari hari Senin, Selasa, Rabu, Kamis, dan
+Jumat. Masing-masing kolom dipisahkan oleh tab.
+
+Setiap harinya pada pramuniaga mendapatkan upah Rp 100 walaupun tidak ada barang yang berhasil
+terjual. Apabila ada barang yang berhasil terjual, maka pramuniaga yang bersangkutan akan diberi
+intensif sebesar 2.5% dari total penjualannya. Selain upah tetap dan insentif, perusahaan juga
+menyediakan bonus tambahan sebesar Rp 1.000 untuk pramuniaga yang penjualannya dalam seminggu
+melebihi Rp 20.000
+
+File teks :
+Aradea 500 700 750 1000  1000 
+Safwan 300 50 0 0 2000 
+Fatima 2500  7500  1500  3000  10000
+
+Contoh pembacaan file :
+Aradea 500 700 750 1000 1000 artinya aradea memiliki penjualan 500 di hari Senin, 700 di hari
+Selasa, 750 di hari rabu, dan 1000 di hari Kamis dan Jumat.
+
+Tugas :
+a. Buatlah sebuah list penjualan dengan elemen berupa dictionary. Dictionary digunakan untuk 
+menyimpan nama penjual dan banyaknya penjualan setiap harinya. Gunakan tipe data terstruktur
+ini untuk proses pada fungsi yang diminta di bawah ini.
+b. Buatlah fungsi penghasilan untuk menampilkan penghasilan setiap pramuniaga di akhir minggu.
+c. Buatlah fungsi bonus untuk menampilkan pramuniaga mana saja yang memperoleh bonus, serta
+besar penghasilan setelah ditambahkan oleh bonus.
+d. Buatlah main program yang digunakan untuk menampilkan dictionary dan memanggil fungsi yang
+dibuat.
